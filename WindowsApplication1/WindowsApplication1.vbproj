@@ -70,6 +70,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="confirmation.Designer.vb">
+      <DependentUpon>confirmation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="confirmation.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Finance Secretary.Designer.vb">
       <DependentUpon>Finance Secretary.vb</DependentUpon>
     </Compile>
@@ -147,6 +153,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="confirmation.resx">
+      <DependentUpon>confirmation.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Finance Secretary.resx">
       <DependentUpon>Finance Secretary.vb</DependentUpon>
     </EmbeddedResource>

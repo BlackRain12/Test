@@ -84,7 +84,7 @@ Partial Class Welcome
         Me.Controls.Add(Me.Label1)
         Me.Name = "Welcome"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form2"
+        Me.Text = "Welcome"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
